@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+
+    <form action="ruta.php" method="get" autocomplete="off"></form>
+
+    <main>
+
+      <div>
+        <h2>Numero incidencia:Q1167</h2>
+
+        <h2>Fecha/hora de recepcion:2019-05-17 12:16:21</h2>
+
+      </div>
+
+      <p>Informacion del usuario</p>
+
+      <div><label for="nombre">Nombre del cliente:</label>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Felipe zamora" minlength="8" maxlength="40"
+          pattern=[a-zA-Z]+ required>
+        <br><br>
+        <label for="identificacion">Identificacion:</label>
+        <input type="text" id="Identificacion" name="Identificacion" placeholder="1030542230" minlength="10"
+          maxlength="10" pattern=[0-9]+ required> <br>
+      </div>
+
+      <br>
+
+
+      <div>
+        <label for="identificacion">Tipo_Identificacion:</label>
+        <select name="Tipo_Identificacion" id="Tipo_Identificacion" required>
+          <option value="0" selected>CC</option>
+          <option value="2">TI</option>
+        </select>
+
+        <br><br>
+
+        <label for="identificacion">Tipo_de_Solicitante:</label>
+        <select name="Tipo_Identificacion" id="Tipo_Identificacion" required>
+          <option value="1" selected>03-Docente</option>
+          <option value="2">01-Alumno</option>
+          <option value="3">02-Padre</option>
+          <option value="3">04-Empleado</option>
+        </select>
+
+      </div>
+
+      <br>
+
+      <div>
+        <label for="email">Email</label>
+        <input type="Email" id="Email" placeholder="azamora@kawak.net" minlength="8" maxlength="40">
+      </div>
+
+      <br>
+
+      <h2>Informacion_de_contacto</h2>
+
+      <div>
+        <label for="Pais">Pais:</label>
+        <input type="text" id="Pais" name="Pais" placeholder="Colombia" minlength="8" maxlength="40" pattern=[a-zA-Z]+
+          required>
+
+        <br><br>
+
+        <label for="Pais">Departamento:</label>
+        <input type="text" id="Pais" name="Pais" placeholder="Bogota D.C" minlength="8" maxlength="40" pattern=[a-zA-Z]+
+          required>
+      </div>
+
+      <br><br>
+
+      <div>
+        <label for="Ciudad">Ciudad:</label>
+        <input type="text" id="Ciudad" name="Ciudad" placeholder="Bogota D.C" minlength="8" maxlength="40"
+          pattern=[a-zA-Z]+ required>
+      </div>
+
+      <br>
+
+      <div>
+        <label for="telefono">Telefono</label>
+        <input type="tel" id="Telefono" name="Telefono" minlength="15" maxlength="15" part="[0-9]+" required>
+
+        <label for="celular">Celular</label>
+        <input type="tel" id="Celular" name="Celular" minlength="10" maxlength="10" part="[0-9]+" required>
+      </div>
+
+      <br>
+
+      <div>
+        <label for="identificacion">Medio de contacto preferido:</label>
+        <select name="Tipo_Identificacion" id="Tipo_Identificacion" required>
+          <option value="1" selected>Correo escrito</option>
+          <option value="2">CC</option>
+          <option value="3">TI</option>
+        </select><br>
+
+        <label for="Direccion">Direccion</label>
+        <input type="text" id="Direccion" name="Direccion" minlength="8" maxlength="40" pattern=[a-zA-Z]+ required>
+      </div>
+
+      <br>
+
+      <h2>Informacion_de_solicitud</h2>
+      <div>
+        <h2>Fecha_de_Vencimiento:</h2>
+        <p>Mayo 29-2017</p><br>
+      </div>
+
+      <br>
+
+      <div>
+        <label for="Asunto">Asunto:</label>
+        <input type="text" id="Asunto" name="Asunto" placeholder="Queja" minlength="50" maxlength="800"
+          pattern=[a-zA-Z]+ required> <br>
+
+        <label for="Asunto">Descripcion:</label>
+        <textarea id="Solicitud" name="Solicitud" placeholder="Queja Oracle"></textarea>
+      </div>
+
+      <br>
+
+      <div>
+        <label for="Archivo">Archivo</label>
+        <input accept="image/*" type="file" id="file" name="file" multiple required>
+      </div>
+
+
+      <input type="submit"> <input type="reset">
+
+    </main>
+
+</body>
+
+</html>
+</body>
+
+</html>
