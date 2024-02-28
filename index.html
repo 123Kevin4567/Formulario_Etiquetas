@@ -8,145 +8,140 @@
 </head>
 
 <body>
-  <header>
+  <form action="ruta.php" method="get" autocomplete="off"></form>
 
-    <form action="ruta.php" method="get" autocomplete="off"></form>
+  <main>
 
-    <main>
+    <p>Campo requerido</p>
 
-      <p>Campo requerido</p>
+    <div>
+      <h4>Numero incidencia:Q1167</h4>
 
-      <div>
-        <h4>Numero incidencia:Q1167</h4>
+      <h4>Fecha/hora de recepcion:2019-05-17 12:16:21</h4>
 
-        <h4>Fecha/hora de recepcion:2019-05-17 12:16:21</h4>
+    </div>
 
-      </div>
+    <p>Informacion del usuario</p>
 
-      <p>Informacion del usuario</p>
-
-      <div><label for="nombre">Nombre del cliente:</label>
-        <input type="text" id="Nombre" name="Nombre" placeholder="Felipe zamora" minlength="8" maxlength="40"
-          pattern=[a-zA-Z]+ required>
-        <br><br>
-        <label for="identificacion">Identificacion:</label>
-        <input type="text" id="Identificacion" name="Identificacion" placeholder="1030542230" minlength="10"
-          maxlength="10" pattern=[0-9]+ required> <br>
-      </div>
-
+    <div><label for="nombre">Nombre del cliente:</label>
+      <input type="text" id="Nombre" name="Nombre" placeholder="Felipe zamora" minlength="8" maxlength="40"
+        pattern=[a-zA-Z]+ required>
       <br><br>
+      <label for="identificacion">Identificacion:</label>
+      <input type="text" id="Identificacion" name="Identificacion" placeholder="1030542230" minlength="10"
+        maxlength="10" pattern=[0-9]+ required> <br>
+    </div>
+
+    <br><br>
 
 
-      <div>
-        <label for="identificacion">Tipo Identificacion:</label>
-        <select name="Tipo_Identificacion" id="Tipo_Identificacion" pattern=[a-zA-Z]+ required>
-          <option value="0" selected>CC</option>
-          <option value="2">TI</option>
-        </select>
-
-        <br><br>
-
-        <label for="identificacion">Tipo de Solicitante:</label>
-        <select name="Tipo_Identificacion" id="Tipo_Identificacion" pattern=[a-zA-Z]+ required>
-          <option value="1" selected>03-Docente</option>
-          <option value="2">01-Alumno</option>
-          <option value="3">02-Padre</option>
-          <option value="3">04-Empleado</option>
-        </select>
-
-      </div>
-
-      <br>
-
-      <div>
-        <label for="email">Email</label>
-        <input type="Email" id="Email" placeholder="azamora@kawak.net" minlength="8" maxlength="40" pattern=[a-zA-Z]+
-          required>
-      </div>
-
-      <br><br>
-
-      <p>Informacion de contacto</p>
-
-      <div>
-        <label for="Pais">Pais:</label>
-        <input type="text" id="Pais" name="Pais" placeholder="Colombia" minlength="8" maxlength="40" pattern=[a-zA-Z]+
-          required>
-
-        <br><br>
-
-        <label for="Pais">Departamento:</label>
-        <input type="text" id="Pais" name="Pais" placeholder="Bogota D.C" minlength="8" maxlength="40" pattern=[a-zA-Z]+
-          required>
-      </div>
-
-      <br>
-
-      <div>
-        <label for="Ciudad">Ciudad:</label>
-        <input type="text" id="Ciudad" name="Ciudad" placeholder="Bogota D.C" minlength="8" maxlength="40"
-          pattern=[a-zA-Z]+ required>
-      </div>
-
-      <br>
-
-      <div>
-        <label for="telefono">Telefono</label>
-        <input type="tel" id="Telefono" name="Telefono" minlength="15" maxlength="15" part="[0-9]+" required>
-        <br><br>
-
-        <label for="celular">Celular</label>
-        <input type="tel" id="Celular" name="Celular" minlength="10" maxlength="10" part="[0-9]+" required>
-      </div>
-
-      <br>
-
-      <div>
-        <label for="identificacion">Medio de contacto preferido:</label>
-      </div>
+    <div>
+      <label for="identificacion">Tipo Identificacion:</label>
       <select name="Tipo_Identificacion" id="Tipo_Identificacion" pattern=[a-zA-Z]+ required>
-        <option value="1" selected>Correo escrito</option>
-        <option value="2">SMS</option>
-        <option value="3">Cuenta</option>
+        <option value="0" selected>CC</option>
+        <option value="2">TI</option>
       </select>
 
       <br><br>
 
-      <label for="Direccion">Direccion</label>
-      <input type="text" id="Direccion" name="Direccion" minlength="8" maxlength="40" pattern=[a-zA-Z]+ required>
-      </div>
+      <label for="identificacion">Tipo de Solicitante:</label>
+      <select name="Tipo_Identificacion" id="Tipo_Identificacion" pattern=[a-zA-Z]+ required>
+        <option value="1" selected>03-Docente</option>
+        <option value="2">01-Alumno</option>
+        <option value="3">02-Padre</option>
+        <option value="3">04-Empleado</option>
+      </select>
+
+    </div>
+
+    <br>
+
+    <div>
+      <label for="email">Email</label>
+      <input type="Email" id="Email" placeholder="azamora@kawak.net" minlength="8" maxlength="40" pattern=[a-zA-Z]+
+        required>
+    </div>
+
+    <br><br>
+
+    <p>Informacion de contacto</p>
+
+    <div>
+      <label for="Pais">Pais:</label>
+      <input type="text" id="Pais" name="Pais" placeholder="Colombia" minlength="8" maxlength="40" pattern=[a-zA-Z]+
+        required>
 
       <br><br>
 
-      <div>
-        <p>Informacion de solicitud</p>
-        <p>Fecha de Vencimiento:Mayo 29-2017</p>
-      </div>
+      <label for="Pais">Departamento:</label>
+      <input type="text" id="Pais" name="Pais" placeholder="Bogota D.C" minlength="8" maxlength="40" pattern=[a-zA-Z]+
+        required>
+    </div>
 
-      <div>
-        <label for="Asunto">Asunto:</label>
-        <input type="text" id="Asunto" name="Asunto" placeholder="Queja" minlength="50" maxlength="800"
-          pattern=[a-zA-Z]+ required>
-        <br>
+    <br>
 
-        <label for="Asunto">Descripcion:</label>
-        <textarea id="Solicitud" name="Solicitud" placeholder="Queja Oracle" pattern=[a-zA-Z]+ required></textarea>
-      </div>
+    <div>
+      <label for="Ciudad">Ciudad:</label>
+      <input type="text" id="Ciudad" name="Ciudad" placeholder="Bogota D.C" minlength="8" maxlength="40"
+        pattern=[a-zA-Z]+ required>
+    </div>
 
+    <br>
+
+    <div>
+      <label for="telefono">Telefono</label>
+      <input type="tel" id="Telefono" name="Telefono" minlength="15" maxlength="15" part="[0-9]+" required>
+      <br><br>
+
+      <label for="celular">Celular</label>
+      <input type="tel" id="Celular" name="Celular" minlength="10" maxlength="10" part="[0-9]+" required>
+    </div>
+
+    <br>
+
+    <div>
+      <label for="identificacion">Medio de contacto preferido:</label>
+    </div>
+    <select name="Tipo_Identificacion" id="Tipo_Identificacion" pattern=[a-zA-Z]+ required>
+      <option value="1" selected>Correo escrito</option>
+      <option value="2">SMS</option>
+      <option value="3">Cuenta</option>
+    </select>
+
+    <br><br>
+
+    <label for="Direccion">Direccion</label>
+    <input type="text" id="Direccion" name="Direccion" minlength="8" maxlength="40" pattern=[a-zA-Z]+ required>
+    </div>
+
+    <br><br>
+
+    <div>
+      <p>Informacion de solicitud</p>
+      <p>Fecha de Vencimiento:Mayo 29-2017</p>
+    </div>
+
+    <div>
+      <label for="Asunto">Asunto:</label>
+      <input type="text" id="Asunto" name="Asunto" placeholder="Queja" minlength="50" maxlength="800" pattern=[a-zA-Z]+
+        required>
       <br>
 
-      <div>
-        <label for="Archivo">Archivo</label>
-        <input accept="image/*" type="file" id="file" name="file" multiple required>
-      </div>
+      <label for="Asunto">Descripcion:</label>
+      <textarea id="Solicitud" name="Solicitud" placeholder="Queja Oracle" pattern=[a-zA-Z]+ required></textarea>
+    </div>
 
-      <br>
+    <br>
+
+    <div>
+      <label for="Archivo">Archivo</label>
+      <input accept="image/*" type="file" id="file" name="file" multiple required>
+    </div>
+
+    <br>
 
 
-      <input type="submit"> <input type="reset">
-
-    </main>
-
+    <input type="submit"> <input type="reset">
 </body>
 
 </html>
